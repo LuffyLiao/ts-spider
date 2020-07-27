@@ -1,0 +1,24 @@
+{
+  "name": "ts-sprider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crowller.ts",
+    "bulid": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.21",
+    "@types/superagent": "^4.1.8",
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.3.1"
+  }
+}
